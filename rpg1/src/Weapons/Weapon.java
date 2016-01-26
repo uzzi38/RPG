@@ -1,4 +1,4 @@
-package rpg1;
+package Weapons;
 
 public class Weapon {
 		protected int weaponStrength;
