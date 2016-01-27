@@ -36,4 +36,8 @@ public class Character {
 	{
 		return level;
 	}
+	@Override
+	public String toString () {
+		return "Name: "+ name +"       Status: Health = " + health + " Mana " + mana;
+	}
 }
