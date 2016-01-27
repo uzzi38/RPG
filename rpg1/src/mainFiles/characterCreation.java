@@ -55,6 +55,7 @@ public class characterCreation {
 	}
 	private Character nameCharacter(int c) {
 		System.out.println("What do you want them to be called?");
+		@SuppressWarnings("resource")
 		Scanner k = new Scanner(System.in);
 		switch (c) {
 		case 1:
