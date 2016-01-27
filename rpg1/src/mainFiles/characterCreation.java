@@ -10,7 +10,7 @@ public class characterCreation {
 		System.out.println(
 				"Knight - A proud knight skilled in swordplay and supporting his allies. Wheneever they mess up, they tend to have a nervous breakdown.");
 		System.out.println(
-				"Mage - One who command the dark arts, bring ruin to all in their path. Known to have incredibly flashy 'Dark arts'"); // I'm cringing here >.<
+				"Mage - One who commands the dark arts, bring ruin to all in their path. Known to have incredibly flashy 'Dark arts'"); // I'm cringing here >.<
 		System.out.println(
 				"Ranger - A recluse that has become one with the forest. In other words, a loner with only animal friends.");
 		System.out.println(

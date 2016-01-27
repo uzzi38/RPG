@@ -5,9 +5,9 @@ public class Assassin extends Character{
 		super();
 		strength = 6;
 		magic = 6;
+		defence = 4;
 		speed = 9;
 		health = 35;
 		mana = 25;
-		defence = 4;
 	}
 }

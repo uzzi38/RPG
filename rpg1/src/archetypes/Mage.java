@@ -5,9 +5,9 @@ public class Mage extends Character{
 		super();
 		strength = 3;
 		magic = 10;
+		defence = 4;
 		speed = 6;
 		health = 25;
 		mana = 70;
-		defence = 4;
 	}
 }

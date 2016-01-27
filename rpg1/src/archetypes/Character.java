@@ -5,10 +5,10 @@ public class Character {
 	protected int archetype;
 	protected int strength, levelUpStrengthBoost;
 	protected int magic, levelUpMBoost;
+	protected int defence, levelUpDefenceBoost;
 	protected int speed, levelUpSpeedBoost;
 	protected int health, levelUpHPBoost;
 	protected int mana, levelUpMPBoost;
-	protected int defence, levelUpDefenceBoost;
 	protected int level;
 	protected int exp;
 	protected int expToLevelUp;

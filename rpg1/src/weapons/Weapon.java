@@ -1,9 +1,9 @@
 package weapons;
 
 public class Weapon {
+		protected String name;
 		protected int weaponStrength;
 		protected int magicStrength;
-		protected String name;
 		protected double hitRate;
 
 		public Weapon() {
