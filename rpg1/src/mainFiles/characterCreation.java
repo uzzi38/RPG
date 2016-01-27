@@ -15,7 +15,7 @@ public class characterCreation {
 	}
 	private int chooseCharacter() {
 		System.out.println(
-				"Knight - A proud knight skilled in swordplay and supporting his allies. Wheneever they mess up, they tend to have a nervous breakdown.");
+				"Knight - A proud knight skilled in swordplay and supporting his allies. Whenever they mess up, they tend to have a nervous breakdown.");
 		System.out.println(
 				"Mage - One who commands the dark arts, bring ruin to all in their path. Known to have incredibly flashy 'Dark arts'"); // I'm cringing here >.<
 		System.out.println(
