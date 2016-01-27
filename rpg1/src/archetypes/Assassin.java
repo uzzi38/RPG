@@ -1,7 +1,7 @@
 package archetypes;
 
 public class Assassin extends Character{
-	public Assassin() {
+	public Assassin(String n) {
 		super();
 		strength = 6;
 		magic = 6;
@@ -9,5 +9,6 @@ public class Assassin extends Character{
 		speed = 9;
 		health = 35;
 		mana = 25;
+		name = n;
 	}
 }

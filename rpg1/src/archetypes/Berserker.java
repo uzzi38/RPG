@@ -1,7 +1,7 @@
 package archetypes;
 
 public class Berserker extends Character{
-	public Berserker() {
+	public Berserker(String n) {
 		super();
 		strength = 9;
 		magic = 1;
@@ -9,5 +9,6 @@ public class Berserker extends Character{
 		speed = 3;
 		health = 40;
 		mana = 15;
+		name = n;
 	}
 }

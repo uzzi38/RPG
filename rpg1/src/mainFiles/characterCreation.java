@@ -1,11 +1,18 @@
 package mainFiles;
 
-import java.util.Scanner;
+import java.util.Scanner; import archetypes.*; import archetypes.Character;
 
 public class characterCreation {
 	public characterCreation(){};
 	
-	
+	public Character createCharacter(){
+		int p = chooseCharacter();
+		while (p == 0){
+			System.out.println("Please choose a class again, taking into acount spelling and capital letters.");
+			p = chooseCharacter();
+		}
+		return nameCharacter(p);
+	}
 	private int chooseCharacter() {
 		System.out.println(
 				"Knight - A proud knight skilled in swordplay and supporting his allies. Wheneever they mess up, they tend to have a nervous breakdown.");
@@ -46,5 +53,26 @@ public class characterCreation {
 				return 0;
 		}
 	}
-	
+	private Character nameCharacter(int c) {
+		System.out.println("What do you want them to be called?");
+		Scanner k = new Scanner(System.in);
+		switch (c) {
+		case 1:
+			return new Knight(k.nextLine());
+		case 2:
+			return new Mage(k.nextLine());
+		case 3:
+			return new Ranger(k.nextLine());
+		case 4: 
+			return new Assassin(k.nextLine());
+		case 5:
+			return new Seer(k.nextLine());
+		case 6: 
+			return new Berserker(k.nextLine());
+		case 7:
+			return new Lancer(k.nextLine());
+		default:
+			return new Monk(k.nextLine());
+		}
+	}
 }

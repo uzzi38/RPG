@@ -1,7 +1,7 @@
 package archetypes;
 
 public class Ranger extends Character{
-	public Ranger() {
+	public Ranger(String n) {
 		super();
 		strength = 6;
 		magic = 4;
@@ -9,5 +9,6 @@ public class Ranger extends Character{
 		speed = 8;
 		health = 30;
 		mana = 30;
+		name = n;
 	}
 }
