@@ -1,12 +1,14 @@
 package enemies;
 
 public class Enemy {
-	protected int level;
+	protected int baseStrength;
+	protected int baseMagic;
+	protected int baseDefence;
+	protected int baseSpeed;
 	protected int baseHealth;
 	protected int baseMana;
-	protected int baseStrength;
-	protected int baseDefence;
-	protected int baseMagic;
-	protected int baseSpeed;
-	public Enemy(){}
+	protected int level;
+	public Enemy(int l){
+		level = l;
+	}
 }
