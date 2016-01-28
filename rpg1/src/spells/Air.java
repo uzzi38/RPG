@@ -7,5 +7,4 @@ public class Air extends Spell{
 		name = "Air";
 		hitRate = 0.85;
 	}
-
 }

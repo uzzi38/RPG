@@ -9,5 +9,4 @@ public class Fire extends Spell{
 		hitRate = 0.70;
 		burnRate = 0.35;
 	}
-
 }

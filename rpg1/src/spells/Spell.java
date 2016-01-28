@@ -16,5 +16,4 @@ public class Spell {
 	public double getHitRate() {
 		return hitRate;
 	}
-	
 }

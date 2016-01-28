@@ -9,5 +9,4 @@ public class Ice extends Spell{
 		hitRate = 0.75;
 		freezeRate = 0.40;
 	}
-
 }

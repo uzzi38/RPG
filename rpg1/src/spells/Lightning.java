@@ -9,5 +9,4 @@ public class Lightning extends Spell {
 		hitRate = 0.60;
 		paralyseRate = 0.30;
 	}
-
 }
