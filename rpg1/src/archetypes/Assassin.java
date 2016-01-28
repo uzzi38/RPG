@@ -2,13 +2,7 @@ package archetypes;
 
 public class Assassin extends Character{
 	public Assassin(String n) {
-		super();
-		strength = 6;
-		magic = 6;
-		defence = 4;
-		speed = 9;
-		health = 35;
-		mana = 25;
-		name = n;
+		super(n); 
+		setStats(6, 4, 6, 9, 35, 25); //see character or use this.setStats to see order of stat placement
 	}
 }
