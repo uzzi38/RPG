@@ -34,5 +34,6 @@ public class Party {
 			emptyParty();
 			createParty();
 		}
+		n.close();
 	}
 }

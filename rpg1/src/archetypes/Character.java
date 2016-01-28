@@ -40,4 +40,12 @@ public class Character {
 	public String toString () {
 		return "Name: "+ name +"       Status: Health = " + health + " Mana " + mana;
 	}
+	protected void setStats (int str, int def, int mag, int spd, int hp, int mp) {
+		strength = str;
+		magic = mag;
+		speed = spd;
+		health = hp;
+		mana = mp;
+		defence = def;
+	}
 }

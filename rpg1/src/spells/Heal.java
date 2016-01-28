@@ -1,7 +1,5 @@
 package spells;
 
-import archetypes.Character;
-
 public class Heal extends Spell{
 	protected double healRate;
 	
