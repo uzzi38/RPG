@@ -6,7 +6,7 @@ public class Heal extends Spell{
 	public Heal() {
 		super();
 		name = "Heal";
-		hitRate = 0.80;
+		hitRate = 0.99;
 		healRate = 0.60;
 		
 	}

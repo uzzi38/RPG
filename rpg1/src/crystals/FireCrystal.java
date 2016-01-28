@@ -6,6 +6,6 @@ public class FireCrystal extends Crystal {
 
 	public FireCrystal() {
 		super("FireCrystal");
-		fireMultiplier = 1.25;
+		fireMultiplier = 1.20;
 	}
 }
