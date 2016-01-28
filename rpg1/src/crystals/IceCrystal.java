@@ -1,6 +1,6 @@
 package crystals;
 
-public class IceCrystal extends Crystal{
+public class IceCrystal extends Crystal {
 	protected double freezeRate;
 	protected double iceMultiplier;
 
