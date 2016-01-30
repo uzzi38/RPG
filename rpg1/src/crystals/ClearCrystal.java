@@ -1,11 +1,12 @@
 package crystals;
 
 public class ClearCrystal extends Crystal {
-	protected double healRate;
-	protected double healMultiplier;
+	protected double buffetRate;
+	protected double airMultiplier;
 
 	public ClearCrystal() {
 		super("ClearCrystal");
-		healMultiplier = 1.20;
+		//buffetRate
+		airMultiplier = 1.20;
 	}
 }
