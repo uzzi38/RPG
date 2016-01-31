@@ -1,12 +1,12 @@
 package crystals;
 
 public class ShimmeringCrystal extends Crystal {
-	protected double freezeRate, freezeRateMultiplier, iceMultiplier;
+	protected double freezeRate, iceMultiplier;
 
 	public ShimmeringCrystal() {
-		super("IceCrystal");
-		//freezeRate
-		//freezeRateMultiplier 
+		super();
+		name = "ShimmeringCrystal";
+		freezeRate = 0.40;
 		iceMultiplier = 1.20;
 	}
 }

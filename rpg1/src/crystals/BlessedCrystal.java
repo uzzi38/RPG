@@ -1,12 +1,12 @@
 package crystals;
 
 public class BlessedCrystal extends Crystal{
-	protected double healRate, healRateMultiplier, healMultiplier;
+	protected double healRate, healMultiplier;
 
 	public BlessedCrystal() {
-		super("BlessedCrystal");
-		//healRate
-		//healRateMultiplier
+		super();
+		name = "BlessedCrystal";
+		healRate = 0.60;
 		healMultiplier = 1.20;
 	}
 

@@ -1,12 +1,12 @@
 package crystals;
 
 public class VolcanicCrystal extends Crystal {
-	protected double burnRate, burnRateMultiplier, fireMultiplier;
+	protected double burnRate, fireMultiplier;
 
 	public VolcanicCrystal() {
-		super("VolcanicCrystal");
-		//burnRate
-		//burnRateMultiplier
+		super();
+		name = "VolcanicCrystal";
+		burnRate = 0.35;
 		fireMultiplier = 1.20;
 	}
 }
