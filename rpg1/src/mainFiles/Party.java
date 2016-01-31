@@ -27,7 +27,7 @@ public class Party {
 		party[2] = one.createCharacter();
 		System.out.println("And your final character");		
 		party[3] = one.createCharacter();
-		System.out.println(toString());
+		System.out.println(this);
 		System.out.println("Are you satisfied with this party? (Yes/No)");
 		Scanner n = new Scanner(System.in);
 		if (n.nextLine().equals("No")){

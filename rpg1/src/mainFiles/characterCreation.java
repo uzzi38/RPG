@@ -8,7 +8,7 @@ public class characterCreation {
 	public Character createCharacter(){
 		int p = chooseCharacter();
 		while (p == 0){
-			System.out.println("Please choose a class again, taking into acount spelling and capital letters.");
+			System.out.println("Please choose a class again, taking into account spelling and capital letters.");
 			p = chooseCharacter();
 		}
 		return nameCharacter(p);
