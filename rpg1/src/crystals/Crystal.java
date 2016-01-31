@@ -3,9 +3,15 @@ package crystals;
 public class Crystal {
 	protected String name;
 
-	public Crystal() {}
+	public Crystal(String name) {
+		this.name = name;
+	}
 	
 	public String returnName() {
 		return name;
+	}
+	
+	public Crystal addCrystal(Crystal c) {
+		return c;
 	}
 }
