@@ -11,7 +11,7 @@ public class Crystal {
 		return name;
 	}
 	
-	public Crystal addCrystal(Crystal c) {
+	public Crystal returnCrystal(Crystal c) {
 		return c;
 	}
 }

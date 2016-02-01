@@ -27,13 +27,13 @@ public class Weapon {
 			return hitRate;
 		}
 		
-		public Crystal crystalSlot(Crystal c){
+		public String addCrystal(Crystal c){
 			if(cSlot.size() < 2) {
 				cSlot.add(c);
 			}
 			else {
 				return null;
 			}
-			return c;
+			return "You added " + c + " into your Crystal slot";
 		}
 }
