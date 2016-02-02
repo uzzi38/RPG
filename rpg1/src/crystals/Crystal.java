@@ -10,8 +10,4 @@ public class Crystal {
 	public String returnName() {
 		return name;
 	}
-	
-	public Crystal returnCrystal(Crystal c) {
-		return c;
-	}
 }

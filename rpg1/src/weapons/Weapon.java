@@ -7,7 +7,7 @@ public class Weapon {
 		protected String name;
 		protected int weaponStrength, magicStrength;
 		protected double hitRate;
-		protected List<Crystal> cSlot;
+		protected Crystal cSlot;
 
 		public Weapon() {}
 
@@ -27,13 +27,7 @@ public class Weapon {
 			return hitRate;
 		}
 		
-		public String addCrystal(Crystal c){
-			if(cSlot.size() < 2) {
-				cSlot.add(c);
-			}
-			else {
-				return null;
-			}
-			return "You added " + c + " into your Crystal slot";
+		public void addCrystal(Crystal c) {
+			c = cSlot;
 		}
 }
