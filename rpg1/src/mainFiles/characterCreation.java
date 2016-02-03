@@ -27,7 +27,7 @@ public class characterCreation {
 		System.out.println(
 				"Berserker - One who has traded their sanity for brute strength. An excellent conversationalist.");
 		System.out.println(
-				"Lancer - The knights launch themselves into the air before impaling enemies brutally. Missing a soft landing tends to break a few bones");
+				"Lancer - These knights launch themselves into the air before impaling enemies brutally. Missing a soft landing tends to break a few bones");
 		System.out.println(
 				"Monk - For years these monks would train in the mountain; honing their skills and focus. They also enjoy showing off their facial hair");
 		@SuppressWarnings("resource")
