@@ -6,8 +6,8 @@ public class Heal extends Spell{
 	public Heal() {
 		super();
 		name = "Heal";
-		hitRate = 0.99;
-		healRate = 0.60;
+		this.setHitRate(0.99);
+		this.setSpecialRate(0.60);
 		
 	}
 

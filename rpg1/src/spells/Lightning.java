@@ -6,7 +6,7 @@ public class Lightning extends Spell {
 	public Lightning() {
 		super();
 		name = "Lightning";
-		hitRate = 0.60;
-		paralyseRate = 0.30;
+		this.setHitRate(0.60);
+		this.setSpecialRate(0.30);
 	}
 }

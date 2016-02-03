@@ -3,12 +3,12 @@ package archetypes;
 public class Character {
 	protected String name;
 	protected int archetype;
-	protected int strength, levelUpStrengthBoost;
-	protected int magic, levelUpMBoost;
-	protected int defence, levelUpDefenceBoost;
-	protected int speed, levelUpSpeedBoost;
-	protected int health, levelUpHPBoost;
-	protected int mana, levelUpMPBoost;
+	protected int strength, levelUpStrength;
+	protected int magic, levelUpMagic;
+	protected int defence, levelUpDefence;
+	protected int speed, levelUpSpeed;
+	protected int health, levelUpHP;
+	protected int mana, levelUpMP;
 	protected int level;
 	protected int exp;
 	protected int expToLevelUp;
@@ -27,12 +27,12 @@ public class Character {
 	}
 	public void levelUp()
 	{
-		strength += levelUpStrengthBoost;
-		magic += levelUpMBoost;
-		speed += levelUpSpeedBoost;
-		health += levelUpHPBoost;
-		mana += levelUpMPBoost;
-		defence += levelUpDefenceBoost;
+		strength += levelUpStrength;
+		magic += levelUpMagic;
+		speed += levelUpSpeed;
+		health += levelUpHP;
+		mana += levelUpMP;
+		defence += levelUpDefence;
 		level++;
 		expToLevelUp = (level*level)*10;
 	}
@@ -46,16 +46,16 @@ public class Character {
 	}
 	protected void setStats (int str, int def, int mag, int spd, int hp, int mp) {
 		strength = str;
-		levelUpStrengthBoost = str;
+		levelUpStrength = str;
 		magic = mag;
-		levelUpMBoost = mag;
+		levelUpMagic = mag;
 		speed = spd;
-		levelUpSpeedBoost = spd;
+		levelUpSpeed = spd;
 		health = hp;
-		levelUpHPBoost = hp;
+		levelUpHP = hp;
 		mana = mp;
-		levelUpMPBoost = mp;
+		levelUpMP = mp;
 		defence = def;
-		levelUpDefenceBoost = def;
+		levelUpDefence = def;
 	}
 }

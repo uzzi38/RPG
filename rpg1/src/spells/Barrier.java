@@ -6,7 +6,7 @@ public class Barrier extends Spell {
 	public Barrier() {
 		name = "Barrier";
 		defenceMultiplier = 1.30;
-		hitRate = 0.80;
+		this.setHitRate(0.80);
 		
 	}
 

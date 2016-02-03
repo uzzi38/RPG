@@ -6,7 +6,7 @@ public class Fire extends Spell{
 	public Fire() {
 		super();
 		name = "Fire";
-		hitRate = 0.70;
-		burnRate = 0.35;
+		this.setHitRate(0.70);
+		this.setSpecialRate(0.35);
 	}
 }

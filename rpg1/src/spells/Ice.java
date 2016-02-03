@@ -6,7 +6,7 @@ public class Ice extends Spell{
 	public Ice() {
 		super();
 		name = "Ice";
-		hitRate = 0.75;
-		freezeRate = 0.40;
+		this.setHitRate(0.75);
+		this.setSpecialRate(0.40);
 	}
 }

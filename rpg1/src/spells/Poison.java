@@ -6,7 +6,7 @@ public class Poison extends Spell {
 	public Poison() {
 		super();
 		name = "Poison";
-		hitRate = 0.65;
-		poisonRate = 0.40;
+		this.setHitRate(0.65);
+		this.setSpecialRate(0.40);
 	}
 }

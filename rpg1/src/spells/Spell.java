@@ -4,7 +4,8 @@ public class Spell {
 	protected String name;
 	protected int spellStrength;
 	protected double hitRate;
-
+	protected double specialRate;
+	
 	public Spell() {
 		spellStrength = 5;
 	}
@@ -13,7 +14,11 @@ public class Spell {
 		return name;
 	}
 
-	public double getHitRate() {
-		return hitRate;
+	protected void setHitRate(double hR) {
+		hitRate = hR;
+	}
+	
+	protected void setSpecialRate(double sR) {
+		specialRate = sR;
 	}
 }
