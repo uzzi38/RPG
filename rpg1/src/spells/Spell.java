@@ -6,7 +6,8 @@ public class Spell {
 	protected double hitRate;
 	protected double specialRate;
 	
-	public Spell() {
+	public Spell(String name) {
+		this.name = name;
 		spellStrength = 5;
 	}
 	
